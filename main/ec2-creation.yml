@@ -24,7 +24,7 @@
           rules_egress:
            - proto: all
              cidr_ip: 0.0.0.0/0
-          vpc_id: vpc-d8826ebd
+          vpc_id: vpc-bdaf40db
 
     - name: Provision EC2 instance
       ec2:
